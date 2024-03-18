@@ -5,19 +5,21 @@
 body {
   background-color: antiquewhite;
   text-align: center;
+
 }
 .box {
-  background-color: rgba(205, 164, 31, 0.612);
+  background-color: rgba(205, 164, 31, 0.623);
   height: 100px;
   width: 100px;
   border: 1px rgba(255, 0, 0, 0.452) groove;
-  font-size: 110px;
+  font-size: 100px;
   border-radius: 10%;
-  font-style: italic;
   text-decoration: black;
   color: black;
-  padding: 0;
-  margin: 0;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #reset {
   width: 120px;
@@ -53,3 +55,9 @@ body {
   text-align: center;
 }
 
+.container{
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: repeat(3,105px);
+}
